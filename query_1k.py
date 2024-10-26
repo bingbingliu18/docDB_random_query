@@ -3,7 +3,7 @@ import time
 import random
 from pymongo import MongoClient
 
-MONGO_URI = "mongodb://masteruser:*****@insta360-1.cluster-ckutjdcz3cie.us-east-1.docdb.amazonaws.com:27017/?replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
+MONGO_URI = "mongodb://masteruser:*****@******.cluster-ckutjdcz3cie.us-east-1.docdb.amazonaws.com:27017/?replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
 
 def run_query(user_id):
     client = MongoClient(MONGO_URI)

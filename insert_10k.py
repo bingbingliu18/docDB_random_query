@@ -4,7 +4,7 @@ from random import randint, choice
 import pymongo
 from bson.int64 import Int64
 
-#client = pymongo.MongoClient("mongodb://sharon:Password1@docdb-2024-10-09-05-15-02.cluster-ctfokeestnyw.us-east-1.docdb.amazonaws.com:27017/?replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false")
+#client = pymongo.MongoClient("mongodb://sharon:******@docdb-2024-10-09-05-15-02.cluster-ctfokeestnyw.us-east-1.docdb.amazonaws.com:27017/?replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false")
 client = pymongo.MongoClient("mongodb://masteruser:*****@insta360-1.cluster-ckutjdcz3cie.us-east-1.docdb.amazonaws.com:27017/?replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false")
 db = client["insta360"]
 media_collection = db["media_10k"]
